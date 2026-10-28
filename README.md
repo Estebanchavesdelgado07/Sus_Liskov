@@ -1,1 +1,2 @@
 # Sus_Liskov
+El principio de Sustitucion de Liskov establece que las clases derivadas deben de sustituir a su padre si alterar el correcto funcionamiento del programa. En el codigo se refleja de la siguiente manera, la clase padre les da a sus clases hijas el metodo "ConvertirPrecio" para obtener un precio menos el descuento, las clases "Fisico" y "Digital" hacen su propio calculo interno para el meotodo "AplicarDescuento" sin afectar el precio final ni alterar la logica del metodo de la clase padre
